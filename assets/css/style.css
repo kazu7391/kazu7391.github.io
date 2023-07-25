@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+ul > li {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 { margin: 10px 0; }
+header {
+    background-color: #FFF;
+    padding: 10px;
+    overflow: auto;
+}
+header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu ul {
+    overflow: auto;
+    padding: 0;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    color: #FFF;
+    background-color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+    display: block;
+}
+.menu ul li a:hover {
+    background-color: #333;
+}
+.main-content {
+    background-color: #F8F8F8;
+}
+.main-content h1 { text-align: center; }
+.main-content .container {
+    box-sizing: border-box; /* width, height set in box */
+    max-width: 1070px;
+    padding: 10px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.main-content .container > div {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 20px 0;
+}
+.main-content .container > div:last-child {
+    border: none;
+}
+#intro img { width: 100%; }
+.intro p { margin: 10px 0; }
+.frm-register {
+    margin: 30px 0;
+}
+.frm-register > fieldset {
+    margin-bottom: 30px;
+}
+.frm-register legend {
+    font-weight: 600;
+}
+.frm-register .form-group {
+    margin: 10px;
+}
+.frm-register .form-group label,
+.frm-register .form-group input {
+    font-size: 14px;
+}
+.frm-register .form-group label.control-label {
+    display: inline-block;
+    width: 150px;
+}
+.frm-register .form-group input {
+    padding: 5px;
+    height: 20px;
+    vertical-align: middle;
+}
+.frm-register .form-group select {
+    width: 100px;
+    padding: 5px;
+}
+.frm-register .btn {
+    padding: 10px;
+    min-width: 80px;
+    margin-right: 10px;
+}
+.frm-register .btn-submit {
+    background-color: #000;
+    color: #FFF;
+    border-color: #000;
+    border-style: solid;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

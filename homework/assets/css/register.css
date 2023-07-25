@@ -1,7 +1,7 @@
-#container {
-  background-image: url(/assets/images/background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+#container{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .container__form {
   padding-top: 20px;

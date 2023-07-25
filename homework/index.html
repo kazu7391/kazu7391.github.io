@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Trang chủ</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/cropped-favicon.png">
-
 </head>
 
 <body>
     <div>
         <header class="header">
             <ul class="header__container-list">
-                <li><a class="menu-item" href="/">Trang chủ</a></li>
+                <li><a class="menu-item" href="./index.html">Trang chủ</a></li>
                 <li><a class="menu-item" href="#">Tin tức</a></li>
                 <li><a class="menu-item" href="./member.html">Học Viên</a></li>
                 <li><a class="menu-item" href="./register.html">Đăng Ký</a></li>
                 <li><a class="menu-item" href="#">Liên hệ</a></li>
             </ul>
         </header>
-        <div id="container">
+        <main id="container" class="p-10">
             <aside>
                 <h3>Mục lục</h3>
                 <ul>
                     <li><a href="#">Bước 1: TÌM HIỂU XEM TẠI SAO BẠN MUỐN HỌC LẬP TRÌNH?</a>
-                        <ul>
+                        <ul class="ml-20">
                             <li><a href="#" target="_blank">Lý do muốn học lập trình #1: Muốn kiếm thật nhiều tiền</a>
                             </li>
                             <li><a href="https://www.google.com.vn/?hl=vi" target="_blank">Lý do muốn học lập trình #2:
@@ -35,19 +34,19 @@
                     </li>
                     <li>
                         <a href="#">BƯỚC 2: BẠN CẦN BIẾT BẠN MUỐN TẠO RA CÁI GÌ KHI HỌC LẬP TRÌNH?</a>
-                        <ul>
+                        <ul class="ml-20">
                             <li><a href="#" target="_blank">Vậy, Bạn có thể làm gì sau khi học lập trình?</a></li>
                         </ul>
                     </li>
                     <li><a href="#">BƯỚC 3: CHỌN ĐÚNG NGÔN NGỮ ĐỂ BẮT ĐẦU HỌC LẬP TRÌNH.</a>
-                        <ul>
+                        <ul class="ml-20">
                             <li><a href="#" target="_blank">Ngôn ngữ lập trình Frontend</a></li>
                             <li><a href="#" target="_blank">Ngôn ngữ lập trình Backend</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">BƯỚC 4: BẮT ĐẦU NHỎ, THEO DÕI QUÁ TRÌNH HỌC LẬP TRÌNH.</a>
-                    <li><a href="#" target="_blank">Gợi ý kế hoạch học lập trình front end trong 6 tháng</a></li>
+                        <p class="ml-20"><a href="#" target="_blank">Gợi ý kế hoạch học lập trình front end trong 6 tháng</a></p>
                     </li>
                     <li><a href="#">BƯỚC 5: TÌM HIỂU CƠ BẢN VỀ KHOA HỌC MÁY TÍNH</a></li>
                     <li><a href="#">BƯỚC 6: BẮT ĐẦU TỰ HỌC LẬP TRÌNH TRỰC TUYẾN</a></li>
@@ -70,46 +69,37 @@
                         trình từ đầu.</p>
                     <br />
                     <p>Đây là một số bài viết liên quan, có thể bạn sẽ thấy hữu ích:</p>
-                    <ol type="i">
+                    <ul type="i" class="ml-20">
                         <li>
-                            <a href="https://niithanoi.edu.vn/lap-trinh-java.html" target="_blank">Tự học lập trình
-                                Java</a>
+                            <a href="https://niithanoi.edu.vn/lap-trinh-java.html" target="_blank">Tự học lập trình Java</a>
                         </li>
                         <li>
-                            <a href="https://niithanoi.edu.vn/nhap-mon-javascript-dao.html" target="_blank">Tự học lập
-                                trình Javascript</a>
+                            <a href="https://niithanoi.edu.vn/nhap-mon-javascript-dao.html" target="_blank">Tự học lập trình Javascript</a>
                         </li>
                         <li>
-                            <a href="https://niithanoi.edu.vn/hoc-php-trong-7-ngay.html" target="_blank">Tự học lập
-                                trình PHP</a>
+                            <a href="https://niithanoi.edu.vn/hoc-php-trong-7-ngay.html" target="_blank">Tự học lập trình PHP</a>
                         </li>
                         <li>
-                            <a href="https://niithanoi.edu.vn/tu-hoc-python-co-ban.html" target="_blank">Tự học Python
-                                cơ bản</a>
+                            <a href="https://niithanoi.edu.vn/tu-hoc-python-co-ban.html" target="_blank">Tự học Python cơ bản</a>
                         </li>
-                    </ol>
-                    <hr />
+                    </ul>
                 </div>
             </section>
-        </div>
-        
-        <br />
-        <br />
-        <div>
-            <p>Hãy đăng ký để nhận những thông tin mới nhất về học bổng mới nhất tại
-                NIIT - ICT Hà Nội</p>
-            <input type="email" />
-            <button type="submit">Gửi cho tôi</button>
+            <div class="mt-20">
+                <p>Hãy đăng ký để nhận những thông tin mới nhất về học bổng mới nhất tại
+                    NIIT - ICT Hà Nội</p>
+                <input type="email" />
+                <button type="submit">Gửi cho tôi</button>
+            </div>
         </div>
 
-        <footer>
+        <footer class="container__footer p-10">
             <div>
                 <h3>Liên hệ</h3>
                 <ul>
                     <li>Tầng 3, 25T2, N05, Nguyễn Thị Thập, Cầu Giấy, Hà Nội</li>
                     <li>0383180086 - 0383180086</li>
                     <li>niithanoi.edu.vn</li>
-
                 </ul>
             </div>
 
@@ -124,7 +114,6 @@
                         <a href="https://niithanoi.edu.vn/nhap-mon-javascript-dao.html" target="_blank">Tự học lập trình
                             Javascript</a>
                     </li>
-
                 </ul>
             </div>
 
@@ -135,8 +124,6 @@
                     laborum doloremque! Odit.</p>
             </div>
         </footer>
-
-        
     </div>
 </body>
 

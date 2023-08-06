@@ -1,13 +1,26 @@
-.container__table{
-    height: 100vh;
-}
 .table{
     width: 100%;
     text-align: center;
-    
 }
 .title{
     text-align: center;
     margin-bottom: 20px;
     font-size: 28px;
+}
+.container__member{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 20px;
+}
+.member__item{
+    text-align: center;
+    flex-basis: calc(50% - 10px);
+}
+.image__member{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }

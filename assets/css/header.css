@@ -1,0 +1,73 @@
+.header__sp {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.header__sp .menu {
+    position: relative;
+}
+.header__sp .menu .menu-btn {
+    background-color: #FFF;
+    border: none;
+    box-shadow: none;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+.header__sp .menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -10px;
+    margin: 0;
+}
+.header__sp .menu:hover ul {
+    display: block;
+}
+.menu ul {
+    padding: 0;
+}
+.header__sp .menu ul li {background: #333;}
+.header__sp .menu ul li:hover {background: #000;}
+.header__sp .menu ul li a {
+    color: #FFF;
+    padding: 10px;
+    display: block;
+    min-width: 200px;
+}
+.header__pc { 
+    display: none;
+    padding: 50px;
+}
+.header__pc .logo {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.header__pc .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.header__pc .menu {
+    margin-top: 50px;
+    text-align: center;
+}
+.header__pc .menu ul li {
+    margin: 20px 0;
+}
+.header__pc .menu ul li a {
+    font-size: 18px;
+    color: #333;
+}
+.header__pc .menu ul li a:hover {
+    font-style: italic;
+    opacity: 0.8;
+}

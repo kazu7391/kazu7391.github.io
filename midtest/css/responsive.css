@@ -1,0 +1,13 @@
+@media (min-width: 1024px) {
+    .container__heading { text-align: left; }
+    .container__content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .container__content > div {
+        flex-basis: 50%;
+    }
+    .content__list .list__item:first-child {
+        padding-top: 0;
+    }
+}

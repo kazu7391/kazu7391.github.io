@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="container__heading">
+            <h1>MINDX School</h1>
+            <p class="description">
+                Being Creative <br>
+                <b>& INNOVATIVE</b>
+            </p>
+        </div>
+        <div class="container__content">
+            <div class="content__description">
+                <img src="img/photo1.jpg" alt="mindx" />
+                <h2><q>Đồng hành cùng thế hệ trẻ Việt Nam</q></h2>
+                <p>
+                    Mùa thu năm 2015, chúng tôi mở những lớp học lập trình đầu tiên trong một căn gác nhỏ đơn sơ, nằm sâu trong con phố Trần Đại Nghĩa (Hà Nội). Với chúng tôi, lý do bắt đầu hành trình gian nan ấy là ước mơ về một ngôi nhà công nghệ nơi tụi nhỏ được thỏa sức sáng tạo, theo đuổi đam mê và không từ bỏ. Chúng tôi không ngừng nỗ lực đem lại cơ hội làm việc toàn cầu cho thế hệ trẻ Việt Nam, vượt xa khỏi phạm vi lãnh thổ để trở thành những nhà phát triển công nghệ xuất sắc.
+                </p>
+            </div>
+            <div class="content__list">
+                <div class="list__item">
+                    <img src="img/list.jpg" alt="mindx" />
+                    <div class="item__content">
+                        <h3>Heading 1</h3>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <img src="img/list.jpg" alt="mindx" />
+                    <div class="item__content">
+                        <h3>Heading 2</h3>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <img src="img/list.jpg" alt="mindx" />
+                    <div class="item__content">
+                        <h3>Heading 3</h3>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <img src="img/list.jpg" alt="mindx" />
+                    <div class="item__content">
+                        <h3>Heading 4</h3>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // disable right click
+        document.addEventListener('contextmenu', event => event.preventDefault());
+     
+        document.onkeydown = function (e) {
+     
+            // disable F12 key
+            if(e.keyCode == 123) {
+                return false;
+            }
+     
+            // disable I key
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+                return false;
+            }
+     
+            // disable J key
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                return false;
+            }
+     
+            // disable U key
+            if(e.ctrlKey && e.keyCode == 85) {
+                return false;
+            }
+        }
+     
+    </script>
+</body>
+</html>
